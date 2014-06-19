@@ -1,4 +1,4 @@
-opi-firewall (1.0.1) UNRELEASED; urgency=low
+opi-firewall (1.0.1) testing; urgency=low
 
   * Fixed typo in postinst script with link to firewall config
 
