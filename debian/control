@@ -1,0 +1,14 @@
+Source: opi-firewall
+Section: devel
+Priority: optional
+Maintainer: PA Nilsson <pa@openproducts.se>
+Build-Depends: debhelper (>= 8.0.0)
+Standards-Version: 3.9.4
+
+Package: opi-firewall
+Architecture: all
+Depends: ${misc:Depends},
+iptables
+Conflicts: 
+Description: OPI firewall
+ Sets up OPI firewall using iptables
