@@ -25,7 +25,7 @@ case "$1" in
 	iptables-save > /etc/opi/firewall-preopi.conf
 
 	# link new config to be run by network startup scripts
-	ln -s /etc/opi-firewall.conf /etc/network/if-pre-up.d/opi-firewall
+	ln -s /etc/opi/opi-firewall.conf /etc/network/if-pre-up.d/opi-firewall
 
 	# Activate firewall
 	iptables-restore < /etc/network/if-pre-up.d/opi-firewall
