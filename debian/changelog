@@ -1,6 +1,6 @@
-opi-firewall (1.0.2) UNRELEASED; urgency=low
+opi-firewall (1.0.2) testing; urgency=low
 
-  * opened up port 22 
+  * opened up port 22  
 
  -- PA Nilsson <pa@openproducts.se>  Sun, 22 Jun 2014 17:31:44 +0200
 
