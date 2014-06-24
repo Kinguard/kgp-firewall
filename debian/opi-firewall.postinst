@@ -20,16 +20,14 @@ set -e
 
 case "$1" in
     configure)
+	# Fix persmissions on ifup-script
+	chmod 740 /etc/network/if-pre-up.d/opi-firewall-pre-ifup.sh
 
 	# store old config
 	iptables-save > /etc/opi/firewall-preopi.conf
 
-	# link new config to be run by network startup scripts
-	if [ ! -e /etc/network/if-pre-up.d/opi-firewall ]; then
-		ln -s /etc/opi/opi-firewall.conf /etc/network/if-pre-up.d/opi-firewall
-	fi
 	# Activate firewall
-	iptables-restore < /etc/network/if-pre-up.d/opi-firewall
+	iptables-restore < /etc/opi/opi-firewall.conf
 
     ;;
 

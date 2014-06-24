@@ -1,2 +1,2 @@
-opi-firewall.conf /etc/opi/
-
+opi-firewall.conf 	  /etc/opi/
+opi-firewall-pre-ifup.sh  /etc/network/if-pre-up.d/

@@ -27,11 +27,6 @@ case "$1" in
 		iptables-restore < /etc/opi/firewall-preopi.conf
 	fi
 	
-	if [ -L /etc/network/if-pre-up.d/opi-firewall ]
-	then
-		rm -f /etc/network/if-pre-up.d/opi-firewall
-	fi
-
     ;;
 
     *)

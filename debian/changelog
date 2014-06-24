@@ -1,3 +1,9 @@
+opi-firewall (1.0.5) testing; urgency=low
+
+  * Fixed if-preup script.
+
+ -- PA Nilsson <pa@openproducts.se>  Tue, 24 Jun 2014 06:34:34 +0200
+
 opi-firewall (1.0.4) testing; urgency=low
 
   * Fixed rule for 'conntrack' module from old 'state' module 
