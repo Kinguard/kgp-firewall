@@ -1,1 +1,5 @@
+#!/bin/sh
+echo "Starting firewall"
 iptables-restore < /etc/opi/opi-firewall.conf
+exit 0
+

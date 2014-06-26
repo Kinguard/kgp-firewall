@@ -1,3 +1,9 @@
+opi-firewall (1.0.7) testing; urgency=low
+
+  * Added printout to startup script
+
+ -- PA Nilsson <pa@openproducts.se>  Thu, 26 Jun 2014 09:56:52 +0200
+
 opi-firewall (1.0.6) testing; urgency=low
 
   * Fixed name issue with if-pre script.
