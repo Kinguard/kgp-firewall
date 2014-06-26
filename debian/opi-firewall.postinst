@@ -21,7 +21,7 @@ set -e
 case "$1" in
     configure)
 	# Fix persmissions on ifup-script
-	chmod 740 /etc/network/if-pre-up.d/opi-firewall-pre-ifup.sh
+	chmod 740 /etc/network/if-pre-up.d/opi-firewall-pre-ifup
 
 	# store old config
 	iptables-save > /etc/opi/firewall-preopi.conf
