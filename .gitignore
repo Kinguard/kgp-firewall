@@ -1,0 +1,5 @@
+debian/opi-firewall
+debian/*.log
+debian/*.substvars
+debian/files
+*~

@@ -26,8 +26,12 @@ case "$1" in
 	# store old config
 	iptables-save > /etc/opi/firewall-preopi.conf
 
-	# Activate firewall
-	iptables-restore < /etc/opi/opi-firewall.conf
+	if [ -z "$2" ]; then
+		echo "Clean install, not activating firewall (installer reasons)"
+	else
+		# Activate firewall
+		iptables-restore < /etc/opi/opi-firewall.conf
+	fi
 
     ;;
 
