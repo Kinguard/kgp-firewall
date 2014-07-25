@@ -1,3 +1,9 @@
+opi-firewall (1.0.10) testing; urgency=low
+
+  * Saving old config on upgrade
+
+ -- PA Nilsson <pa@openproducts.se>  Fri, 25 Jul 2014 11:43:11 +0200
+
 opi-firewall (1.0.9) testing; urgency=low
 
   * Not triggering iptables-restore on clean install (installer reasons)

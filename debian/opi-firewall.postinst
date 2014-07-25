@@ -23,12 +23,12 @@ case "$1" in
 	# Fix persmissions on ifup-script
 	chmod 740 /etc/network/if-pre-up.d/opi-firewall-pre-ifup
 
-	# store old config
-	iptables-save > /etc/opi/firewall-preopi.conf
 
 	if [ -z "$2" ]; then
 		echo "Clean install, not activating firewall (installer reasons)"
 	else
+		# store old config
+		iptables-save > /etc/opi/firewall-preopi.conf
 		# Activate firewall
 		iptables-restore < /etc/opi/opi-firewall.conf
 	fi
