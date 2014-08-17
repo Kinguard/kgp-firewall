@@ -1,3 +1,9 @@
+opi-firewall (1.0.12) vili; urgency=low
+
+  * Added port 2525 to firewall.
+
+ -- PA Nilsson <pa@openproducts.se>  Sun, 17 Aug 2014 10:38:52 +0200
+
 opi-firewall (1.0.11) testing; urgency=low
 
   * Open port 143 by default
