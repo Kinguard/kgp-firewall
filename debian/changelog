@@ -1,3 +1,9 @@
+opi-firewall (1.0.13) vili; urgency=low
+
+  * Opening port 587
+
+ -- PA Nilsson <pa@openproducts.se>  Thu, 27 Nov 2014 12:25:44 +0100
+
 opi-firewall (1.0.12) vili; urgency=low
 
   * Added port 2525 to firewall.
