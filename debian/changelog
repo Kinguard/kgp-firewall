@@ -1,3 +1,9 @@
+opi-firewall (1.0.14) vili; urgency=medium
+
+  * Buster update
+
+ -- Tor Krill <tor@openproducts.se>  Tue, 03 Sep 2019 09:15:20 +0200
+
 opi-firewall (1.0.13) vili; urgency=low
 
   * Opening port 587
