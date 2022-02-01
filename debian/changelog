@@ -1,3 +1,9 @@
+opi-firewall (1.0.15) vigrid; urgency=medium
+
+  * Bullseye build
+
+ -- Tor Krill <tor@openproducts.se>  Tue, 01 Feb 2022 09:12:58 +0100
+
 opi-firewall (1.0.14) vili; urgency=medium
 
   * Buster update
